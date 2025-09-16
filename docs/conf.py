@@ -45,7 +45,7 @@ if os.environ.get("READTHEDOCS") == "True":
         apidoc.main(
             [
                 "--force",
-                "----implicit-namespaces",
+                "--implicit-namespaces",
                 "--module-first",
                 "--separate",
                 "--o",
