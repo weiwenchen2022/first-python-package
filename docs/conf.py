@@ -39,7 +39,7 @@ if os.environ.get("READTHEDOCS") == "True":
 
     PACKAGE_ROOT = PROJECT_ROOT / "src" / "imppkg"
 
-    def run_apidoc():
+    def run_apidoc(_):
         from sphix.ext import apidoc
 
         apidoc.main(
